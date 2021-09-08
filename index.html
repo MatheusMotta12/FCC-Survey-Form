@@ -1,0 +1,90 @@
+<!DOCTYPE htmL>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<Header>
+  <link rel="stylesheet" type="text/css" href="your-stylesheet.css" />
+  <h1 id="title">
+    Scania Truck Purchase Form
+  </h1>
+</Header>
+
+<body>
+  <p id="description">
+    <i>Fill out the details below to complete your purchase!</i>
+  </p>
+
+  <form id="survey-form">
+
+    <div class="input-headings">
+      <label for="name" id="name-label"><b>Name:</b></label>
+      <input id="name" type="text" name="name" placeholder="James Cameron" class="form-inputs" required></input>
+      <br>
+
+      <label for="email" id="email-label"><b>Email:</b></label>
+      <input id="email" type="email" name="email" placeholder="jamescamerom@scania.com" class="form-inputs" required></input>
+      <br>
+
+      <label for="number" id="number-label"><b>Age:</b></label>
+      <input id="number" type="number" name="number" placeholder="67" min="18" max="100" class="form-inputs" required></imput>
+      <br>
+
+      <label for="dropdown" id="cab"><b> Select Cab Type:</b></label>
+      <select id="dropdown" class="form-inputs">
+        <option value="P-cab">P-Cab | Day Cab</option>
+        <option value="R-cab">R-Cab | Sleeper Cab</option>
+        <option value="S-Cab">S-Cab | Premiun Cab</option>
+      </select>
+      <br>
+      <br>
+      <label for="truck-color" id="truck-color"><b>Choose the color of your truck:</b></label>
+
+      <input id="truck-color" type="radio" name="color" value="black"> </input>
+      <label for="truck-color">Black</label>
+      <br>
+
+      <input id="truck-color" type="radio" name="color" value="red"> </input>
+      <label for="truck-color">Red</label>
+      <br>
+
+      <input id="truck-color" type="radio" name="color" value="blue"> </input>
+      <label for="truck-color">Blue</label>
+      <br>
+
+      <input id="truck-color" type="radio" name="color" value="Green"> </input>
+      <label for="truck-color">Green</label>
+      <br>
+      <br>
+
+      <label for="features"> <b>Add features:</b></b></label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="features" value="Opticruise">
+      <label for="checkbox">
+        Automatic Gearbox - $10,000</label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="features" value="Sleepercab">
+      <label for="checkbox">
+        Sleeper Cab - $8,000</label>
+      <br>
+
+      <input id="checkbox" type="checkbox" name="features" value="5thwheel">
+      <label for="checkbox">
+        Fifith Wheel - $2,500</label>
+      <br>
+      <br>
+
+      <label id="textarea"><b>Additional Comments:</b></label <br>
+
+      <textarea id="textarea" name="instructions" rowa="5" cola="40">
+    </textarea>
+      <br>
+      <input id="submit" type="submit" value="Place Order" class="submit-button"></input>
+
+    </div>
+  </form>
+</body>
+
+</html>
